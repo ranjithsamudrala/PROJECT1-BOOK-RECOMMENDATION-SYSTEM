@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>index.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #d5b778;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bababa;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+index.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">html</span><span class="s0">&gt;</span>
+<span class="s0">&lt;html </span><span class="s2">lang</span><span class="s3">=&quot;en&quot;</span><span class="s0">&gt;</span>
+<span class="s0">&lt;head&gt;</span>
+    <span class="s0">&lt;meta </span><span class="s2">charset</span><span class="s3">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;title&gt;</span><span class="s1">Book Recommender System</span><span class="s0">&lt;/title&gt;</span>
+    <span class="s4">&lt;!-- Latest compiled and minified CSS --&gt;</span>
+    <span class="s0">&lt;link </span><span class="s2">rel</span><span class="s3">=&quot;stylesheet&quot; </span><span class="s2">href</span><span class="s3">=&quot;https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css&quot; </span><span class="s2">integrity</span><span class="s3">=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; </span><span class="s2">crossorigin</span><span class="s3">=&quot;anonymous&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;style&gt;</span>
+        <span class="s0">body </span><span class="s1">{</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s3">lightblue</span><span class="s1">;</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s3">white</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">navbar </span><span class="s1">{</span>
+            <span class="s2">background-color</span><span class="s1">: </span><span class="s3">darkcyan</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">text-white </span><span class="s1">{</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s3">black</span><span class="s1">;</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">navbar-brand</span><span class="s1">,</span>
+        <span class="s1">.</span><span class="s0">navbar-nav </span><span class="s1">&gt; </span><span class="s0">li </span><span class="s1">&gt; </span><span class="s0">a </span><span class="s1">{</span>
+            <span class="s2">font-size</span><span class="s1">: </span><span class="s5">24</span><span class="s3">px</span><span class="s1">; </span><span class="s4">/* Adjust the font size as needed */</span>
+            <span class="s2">color</span><span class="s1">: </span><span class="s3">black</span><span class="s1">; </span><span class="s4">/* Change the font color to black */</span>
+        <span class="s1">}</span>
+        <span class="s1">.</span><span class="s0">center-text </span><span class="s1">{</span>
+            <span class="s2">text-align</span><span class="s1">: </span><span class="s3">center</span><span class="s1">; </span><span class="s4">/* Center align the text */</span>
+        <span class="s1">}</span>
+    <span class="s0">&lt;/style&gt;</span>
+<span class="s0">&lt;/head&gt;</span>
+<span class="s0">&lt;body&gt;</span>
+
+<span class="s0">&lt;nav </span><span class="s2">class</span><span class="s3">=&quot;navbar&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;a </span><span class="s2">class</span><span class="s3">=&quot;navbar-brand&quot;</span><span class="s0">&gt;</span><span class="s1">My Book Recommender</span><span class="s0">&lt;/a&gt;</span>
+    <span class="s0">&lt;ul </span><span class="s2">class</span><span class="s3">=&quot;nav navbar-nav&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;li&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;/&quot;</span><span class="s0">&gt;</span><span class="s1">Home</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="s0">&lt;li&gt;&lt;a </span><span class="s2">href</span><span class="s3">=&quot;/recommend&quot;</span><span class="s0">&gt;</span><span class="s1">Recommend</span><span class="s0">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="s0">&lt;/ul&gt;</span>
+<span class="s0">&lt;/nav&gt;</span>
+
+<span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;container&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-12 center-text&quot;</span><span class="s0">&gt; </span><span class="s4">&lt;!-- Center align the content --&gt;</span>
+            <span class="s0">&lt;h1 </span><span class="s2">class</span><span class="s3">=&quot;text-white&quot; </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">font-size</span><span class="s1">:</span><span class="s5">50</span><span class="s3">px&quot;</span><span class="s0">&gt;</span><span class="s1">Top 100 Books</span><span class="s0">&lt;/h1&gt;</span>
+        <span class="s0">&lt;/div&gt;</span>
+
+        <span class="s1">{% for i in range(book_name|length) %}</span>
+            <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;col-md-3&quot; </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">margin-top</span><span class="s1">:</span><span class="s5">50</span><span class="s3">px&quot;</span><span class="s0">&gt;</span>
+                <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;card&quot;</span><span class="s0">&gt;</span>
+                    <span class="s0">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;card-body&quot;</span><span class="s0">&gt;</span>
+                        <span class="s1">{% if image[i] %}</span>
+                            <span class="s0">&lt;img </span><span class="s2">class</span><span class="s3">=&quot;card-img-top&quot; </span><span class="s2">src</span><span class="s3">=&quot;{{ image[i] }}&quot;</span><span class="s0">&gt;</span>
+                        <span class="s1">{% endif %}</span>
+                        <span class="s0">&lt;h3 </span><span class="s2">class</span><span class="s3">=&quot;text-white&quot;</span><span class="s0">&gt;</span><span class="s1">{Book} - {{ book_name[i] }}</span><span class="s0">&lt;/h3&gt;</span>
+                        <span class="s0">&lt;h4 </span><span class="s2">class</span><span class="s3">=&quot;text-white&quot;</span><span class="s0">&gt;</span><span class="s1">{Author} - {{ author[i] }}</span><span class="s0">&lt;/h4&gt;</span>
+                        <span class="s0">&lt;h4 </span><span class="s2">class</span><span class="s3">=&quot;text-white&quot;</span><span class="s0">&gt;</span><span class="s1">{Rating} - {{ rating[i]|round }}</span><span class="s0">&lt;/h4&gt; </span><span class="s4">&lt;!-- Round the rating value --&gt;</span>
+                    <span class="s0">&lt;/div&gt;</span>
+                <span class="s0">&lt;/div&gt;</span>
+            <span class="s0">&lt;/div&gt;</span>
+            <span class="s1">{% if (i + 1) % 4 == 0 %}</span>
+                <span class="s0">&lt;/div&gt;&lt;div </span><span class="s2">class</span><span class="s3">=&quot;row&quot;</span><span class="s0">&gt;</span>
+            <span class="s1">{% endif %}</span>
+        <span class="s1">{% endfor %}</span>
+
+    <span class="s0">&lt;/div&gt; </span><span class="s4">&lt;!-- closing container div --&gt;</span>
+<span class="s0">&lt;/div&gt; </span><span class="s4">&lt;!-- closing body div --&gt;</span>
+
+<span class="s0">&lt;/body&gt;</span>
+<span class="s0">&lt;/html&gt;</span>
+</pre>
+</body>
+</html>
